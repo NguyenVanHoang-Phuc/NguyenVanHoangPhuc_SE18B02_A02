@@ -77,11 +77,11 @@
             <DataGrid x:Name="dgData" Margin="4,4,4,63" Grid.Column="0" Grid.Row="9" Grid.ColumnSpan="4" SelectionChanged="dgData_SelectionChanged"
           AutoGenerateColumns="False">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Room ID" Binding="{Binding RoomId}" />
+                    <DataGridTextColumn Header="Room ID" Binding="{Binding RoomID}" />
                     <DataGridTextColumn Header="Room Number" Binding="{Binding RoomNumber}" />
                     <DataGridTextColumn Header="Room Detail Description" Binding="{Binding RoomDetailDescription}" />
                     <DataGridTextColumn Header="Max Capacity" Binding="{Binding RoomMaxCapacity}" />
-                    <DataGridTextColumn Header="Room Type ID" Binding="{Binding RoomTypeId}" />
+                    <DataGridTextColumn Header="Room Type ID" Binding="{Binding RoomTypeID}" />
                     <DataGridTextColumn Header="Room Status" Binding="{Binding RoomStatus}" />
                     <DataGridTextColumn Header="Price Per Day" Binding="{Binding RoomPricePerDay}" />
                 </DataGrid.Columns>

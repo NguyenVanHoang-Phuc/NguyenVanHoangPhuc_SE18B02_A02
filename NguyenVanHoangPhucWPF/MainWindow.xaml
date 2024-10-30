@@ -76,7 +76,7 @@
             <DataGrid x:Name="dgData" Margin="4,4,4,4" Grid.Column="0" Grid.Row="9" Grid.ColumnSpan="4" SelectionChanged="dgData_SelectionChanged"
           AutoGenerateColumns="False" CanUserAddRows="False">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Customer ID" Binding="{Binding CustomerId}"/>
+                    <DataGridTextColumn Header="Customer ID" Binding="{Binding CustomerID}"/>
                     <DataGridTextColumn Header="Full Name" Binding="{Binding CustomerFullName}"/>
                     <DataGridTextColumn Header="Telephone" Binding="{Binding Telephone}"/>
                     <DataGridTextColumn Header="Email Address" Binding="{Binding EmailAddress}"/>

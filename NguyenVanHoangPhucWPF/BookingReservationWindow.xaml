@@ -32,7 +32,7 @@
 
         <DataGrid x:Name="dgBookingHistory" Margin="10" Grid.Column="0" Grid.Row="1" AutoGenerateColumns="False" CanUserAddRows="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Reservation ID" Binding="{Binding BookingReservationId}" Width="*"/>
+                <DataGridTextColumn Header="Reservation ID" Binding="{Binding BookingReservationID}" Width="*"/>
                 <DataGridTextColumn Header="Booking Date" Binding="{Binding BookingDate, StringFormat={}{0:dd/MM/yyyy}}" Width="*"/>
                 <DataGridTextColumn Header="Total Price" Binding="{Binding TotalPrice, StringFormat={}{0:C}}" Width="*"/>
                 <DataGridTextColumn Header="Status" Binding="{Binding BookingStatus}" Width="*"/>
